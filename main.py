@@ -1,4 +1,5 @@
 from commands.greet import Greet
 
-Greet.exec("Liam")
+# Use the Greet class we imported above
+Greet.exec("World")
 print(Greet.help)
